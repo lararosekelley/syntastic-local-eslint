@@ -6,11 +6,17 @@ All notable changes to this project will be documented in this file. The format 
 
 ---
 
-## [Unreleased](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.0...HEAD)
+## [Unreleased](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.2...HEAD)
 
 - N/A
 
-## [1.0.1](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.0...HEAD) - 01-25-2018
+## [1.0.2](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.1...1.0.2) - 01-25-2018
+
+### Fixed
+
+- Add missing `!` to functions
+
+## [1.0.1](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.0...1.0.1) - 01-25-2018
 
 ### Fixed
 

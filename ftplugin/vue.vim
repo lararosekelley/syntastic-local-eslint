@@ -21,13 +21,13 @@ function! s:GetNodeModules()
 endfunction
 
 " get local eslint executable
-function s:GetEslint(node_modules)
+function! s:GetEslint(node_modules)
     let eslint_bin = a:node_modules is? '' ? '' : a:node_modules . '.bin/eslint'
     return exepath(eslint_bin)
 endfunction
 
 " set local eslint executable if found
-function s:SetEslint(eslint)
+function! s:SetEslint(eslint)
     if a:eslint isnot? ''
         let b:syntastic_vue_eslint_exec = a:eslint
     endif
