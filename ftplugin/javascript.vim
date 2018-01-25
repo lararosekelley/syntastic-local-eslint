@@ -36,7 +36,7 @@ endfunction
 " tell syntastic which eslint to use
 function! s:main()
     let node_modules = s:GetNodeModules()
-    let eslint = s:GetEslint()
+    let eslint = s:GetEslint(node_modules)
 
     call s:SetEslint(eslint)
 endfunction

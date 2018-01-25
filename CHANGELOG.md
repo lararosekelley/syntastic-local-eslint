@@ -10,7 +10,13 @@ All notable changes to this project will be documented in this file. The format 
 
 - N/A
 
-## [1.0.0](https://github.com/tylucaskelley/syntastic-local-eslint/releases/tag/1.0.0)
+## [1.0.1](https://github.com/tylucaskelley/syntastic-local-eslint/compare/1.0.0...HEAD) - 01-25-2018
+
+### Fixed
+
+- Call `s:GetEslint` with required argument
+
+## [1.0.0](https://github.com/tylucaskelley/syntastic-local-eslint/releases/tag/1.0.0) - 01-25-2018
 
 ### Added
 
